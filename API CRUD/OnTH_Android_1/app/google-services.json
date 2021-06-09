@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "689795178440",
+    "project_id": "tranktthandroid",
+    "storage_bucket": "tranktthandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689795178440:android:b87331c752640ebda72afd",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689795178440-jfagv54a667d10j86so6c7dhri2o7hg5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN7EXogfZB3KxStvl9gNwir0Fjb0mH91U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689795178440-jfagv54a667d10j86so6c7dhri2o7hg5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

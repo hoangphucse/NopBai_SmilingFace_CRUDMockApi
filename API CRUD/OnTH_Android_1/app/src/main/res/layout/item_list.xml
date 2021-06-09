@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/remove_inline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_Id" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="89dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_launcher_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/tv_Id"
+        android:layout_width="128dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/tv_Name"
+        android:layout_width="128dp"
+        android:layout_height="31dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/tv_Age"
+        app:layout_constraintEnd_toEndOf="@+id/tv_Id"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_Id"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Id"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tv_Age"
+        android:layout_width="128dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="28dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/tv_Id"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_Id"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Id" />
+
+    <TextView
+        android:id="@+id/tv_Gender"
+        android:layout_width="0dp"
+        android:layout_height="31dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/tv_Age"
+        app:layout_constraintStart_toStartOf="@+id/tv_Age"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Age" />
+
+    <Button
+        android:id="@+id/update_inline"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Update"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_Gender"
+        app:layout_constraintEnd_toEndOf="@+id/remove_inline"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/remove_inline" />
+</androidx.constraintlayout.widget.ConstraintLayout>
